@@ -69,6 +69,9 @@ public class Book {
         spage += "§7" + fdate + "\n";
         spage += (Author != null ? Author.getUniqueId() : "") + "\n";
         spage += (Attention != null ? Attention.getUniqueId() : "") + "\n";
+        
+        Util.cinform(spage);
+        
         return spage;
     }
 
